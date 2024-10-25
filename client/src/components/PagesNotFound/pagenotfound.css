@@ -1,0 +1,59 @@
+.pnf{
+    display: block;
+text-align: center;
+/* padding: 7%; */
+}
+.pnf-title{
+    font-size: 5.5em;
+    /* display: flex; */
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.pnf-heading{
+    font-size: 2em;
+}
+
+.pnf-btn{
+    /* background: #000; */
+    padding: .8em;
+    text-decoration: none;
+    font-size: 1.4em;
+    background: rgb(174, 174, 238);
+    border-radius: 20px;
+}
+
+.imgnotfound{
+    margin: 0px;
+    height: 10em;
+    width: 10em;
+}
+
+.pnf-title{
+    animation:flip 1s infinite;
+    animation-delay: 0s;
+}
+
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+
+
+.pnf-heading {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Playfair:wght@700&family=Poppins:wght@300;400&family=Tiro+Devanagari+Hindi&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+.navbar{
+    display: flex;
+    /* background: linear-gradient(90deg, rgba(100,90,244,1) 0%, rgba(47,68,183,1) 35%, rgba(36,63,170,1) 73%, rgba(69,149,252,1) 100%); */
+    
+    padding: .2rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1EB2A6ff;
+    /* background-color: rgb(0, 0, 126); */
+    padding: 0px 30px;
+    /* box-shadow: 0 5px 15px rgb(242, 242, 244); */
+    font-size: 1.4em;
+    height: 6rem;
+    position: static;
+    overflow: hidden;
+}
+.navbarlogo{
+    color: white;
+    padding: 1.1em;
+    /* margin-left: 33px; */
+    text-align: center;
+    font-family: 'Catamaran',sans-serif;
+    text-decoration: none;
+}
+/* .navbarlogo:hover{
+    color: white;
+} */
+.leftnavbar{
+    /* background-color: aqua; */
+    display: flex;
+    font-family: 'Catamaran',sans-serif;
+    list-style: none;
+    align-items:center;
+    justify-content: end;
+    font-size: 1.3rem;
+    /* background-color: aqua; */
+    width: 100%;
+}
+.navlink{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500;
+}
+.navlink:hover{
+    color: black;
+}
+.navbaritem{
+    /* margin-right: 10px; */
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+@media screen and (max-width:641px)  {
+   .navbar{
+    font-size: 1em;
+    padding: .7rem;
+   }
+   .leftnavbar{
+    font-size: 1em;
+    flex-grow: column;
+   }
+   .navbaritem{
+    padding: .2rem;
+   }
+   .navbarlogo{
+    color: rgb(17, 17, 17);
+    padding: 1em;
+    /* margin-left: 33px; */
+    text-align: center;
+    font-family: 'Catamaran',sans-serif;
+    text-decoration: none;
+}
+
+}
+@media screen and (max-width: 377px)  {
+    .navbar{
+     font-size: 0.7em;
+     padding: .5rem;
+    }
+    .leftnavbar{
+     font-size: 1em;
+     flex-grow: column;
+    }
+    .navbaritem{
+     padding: .2rem;
+    }
+    .navbarlogo{
+     color: rgb(17, 17, 17);
+     padding: 1em;
+     /* margin-left: 33px; */
+     text-align: center;
+     font-family: 'Catamaran',sans-serif;
+     text-decoration: none;
+ }
+ /* #homehead{
+     display: none;
+ } */
+ }

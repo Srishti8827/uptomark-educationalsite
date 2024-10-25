@@ -1,0 +1,88 @@
+.landingheading{
+    font-family: 'Catamaran', sans-serif;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF0F0;
+    flex-direction: column;
+}
+.landcardcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    align-items: center;
+    justify-content: center;
+    background-color: #EFF0F0;
+    grid-auto-flow: row;
+    /* float: ; */
+    /* flex-direction: row; */
+    
+    }
+    .landingheadline{
+        align-items: center;
+        margin-top:-5% ;
+        justify-content: center;
+        
+    }
+    .landingp{
+        margin-top: 10%;
+        font-family: 'Catamaran', sans-serif;
+        color: green;
+        margin-bottom: -3%;
+    }
+    .landcard{
+        text-align: center;
+        width: 22rem;
+        place-self: center;
+        transition: transform .2s;
+        margin: 2rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+    }
+    .landcardimgs{
+        margin: 0;
+        padding: 0;
+        aspect-ratio:16 / 9;
+        /* overflow: hidden; */
+    }
+    .landcardimgs img{
+        /* height: 17rem;
+        width:17rem; */
+        max-width: 100%;
+        transform-origin: center;
+        transform: scale(var(--img-scale));
+        transition:transform 0.4s ease-in-out;
+        background-attachment:fixed;
+       
+    }
+    .landcardtitle{
+        /* display: block; */
+        /* margin: auto; */
+        text-align: center;
+        font-size: 20px;
+    }
+    .landcarddetail{
+        text-align:left;
+        padding: 1rem;
+        padding: 24px;
+    }
+    .landcard a{
+        text-decoration: none;
+    
+    }
+    .landcard:hover{
+        transform:scale(1.05);
+    }
+    
+    @media screen and  (max-width: 1070px) {
+        .landcardcontainer{
+    
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+    }
+    @media screen and  (max-width: 380px){
+        .landcard{
+            width: 18rem;
+        }
+    }

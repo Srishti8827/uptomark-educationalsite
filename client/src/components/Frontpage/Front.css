@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Playfair:wght@700&family=Poppins:wght@300;400&family=Tiro+Devanagari+Hindi&display=swap');
+
+.mainfront{
+    background: url("./pexels-julia-khalimova-826746-5530243.jpg")   ;
+     background-attachment: fixed;
+    /* background-size:cover; */ 
+    /* margin-top: .5%; */
+    /* background-image: url("image3.png"); */
+/* width: 100%;
+height: 100%;  */
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+}
+.frontbody{
+    width: 50%;
+    padding-top:7%;
+    padding-bottom:10%;
+    /* height: 600px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background: #000; */
+    /* font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500; */
+    
+    /* background-attachment: fixed; */
+    flex-direction: column;
+}
+.frontheading{
+    font-weight: 900;
+    color: white;
+   
+    font-family: "Roboto", Arial, sans-serif;
+    /* font-family: 'Catamaran', sans-serif; */
+    font-weight: 1000;
+	/* font-size: 40px; */
+    font-size: 2.5rem;
+    margin-left: 3%
+  
+}
+.subhead{
+    /* font-weight: 900; */
+    font-family: 'Catamaran', sans-serif;
+    /* font-family: "Roboto", Arial, sans-serif; */
+    font-weight: 300;
+    /* color: rgb(10, 10, 10); */
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    /* padding-left:5% ; */
+    font-size:1.3rem;
+    margin-top: -1rem;
+    margin-left: 3%
+	
+}
+.front_button{
+    font-family: 'Catamaran', sans-serif;
+    width: 10rem;
+    background-color: aliceblue;
+    border-radius: 0em;
+    padding: 0.5em;
+    border-color: aliceblue;
+    text-decoration: none;
+    color: rgb(13, 194, 13);
+    margin-top: 1.5%;
+    margin-left: 3%;
+    a{
+        color: rgb(13, 194, 13);
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 695px){
+    .subhead{
+        font-size: 1rem;
+
+    }
+    .frontheading{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 385px){
+    .subhead{
+        font-size: 1rem;
+
+    }
+    .frontheading{
+        font-size: 1.5rem;
+    }
+}

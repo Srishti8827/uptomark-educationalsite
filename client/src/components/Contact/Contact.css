@@ -1,0 +1,84 @@
+.container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.imagecontainer{
+    /* background: #000; */
+    text-align: center;
+}
+.imgcontact{
+    height:40em; 
+    width: 35eem;
+
+}
+.content{
+    /* background: #d99898; */
+    padding: 5em;
+    /* margin:  */
+    display: block;
+}
+h1{
+    margin:1em;
+
+}
+h4{
+    margin:1em;
+}
+.group{
+    /* padding: 2em; */
+    margin: 1em;
+}
+input{
+    padding: .5em;
+    width: 20em;
+    border-radius: 6px;
+    /* border: none; */
+    border-color: rgb(6, 6, 66);
+}
+textarea{
+    padding: .5em;
+    width: 20em;
+    border-radius: 6px;
+    border-color: rgb(6, 6, 66);
+    border-width: 2px;
+}
+.btn{
+    width:5em;
+    padding: .5em;
+    border-radius: 5em;
+    border: none;
+    color: white;
+    background: #1EB2A6ff;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-left: 40%;
+}
+.btn:hover{
+    background: white;
+  
+    color: #1EB2A6ff;
+    border-color:#1EB2A6ff ;
+}
+
+@media  screen and (max-width: 695px) {
+    .container-contact{
+        /* background: #000; */
+        background-image:url('./StudioAnimwood.png') ;
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+       
+    }
+    .imgcontact{
+        opacity: .5;
+        height: 0%;
+        width:0%;
+    }
+    .content{
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+}

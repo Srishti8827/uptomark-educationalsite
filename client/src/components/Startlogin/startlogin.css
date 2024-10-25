@@ -1,0 +1,13 @@
+.startlogincontainer{
+    display: flex;
+    justify-content: center;
+}
+#organizer{
+    background-color: rgb(196, 238, 235);
+}
+.cardlogin{
+    align-items: center;
+    padding: 1.5em;
+    justify-content: center;
+ 
+}

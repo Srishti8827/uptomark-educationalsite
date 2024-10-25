@@ -1,0 +1,47 @@
+.student-container{
+    /* background: #ecf2ff; */
+    /* margin: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-column-gap: 8rem;
+    grid-row-gap:3rem;
+    background-color: #EFF0F0;
+
+   /* background: #000; */
+    /* grid-template-columns: minmax(auto, 1fr) 4fr;  */
+}
+.card-student{
+    text-align: center;
+}
+.cardbody{
+
+    background: white;
+    border:solid #1EB2A6ff;
+    /* padding: 5rem; */
+    margin-top: -5rem;
+    height: 13rem;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.studentimg{
+    border-radius: 100%;
+    height: 10rem;
+    align-items: center;
+    /* width: 15rem; */
+}
+.studentheading{
+    margin-top: 10rem;
+}
+
+@media screen and  (max-width: 694px) {
+    .studentimg{
+        border-radius: 100%;
+        height: 7rem;
+        align-items: center;
+        background-color: #c0dbff;
+        /* width: 15rem; */
+    }
+}
