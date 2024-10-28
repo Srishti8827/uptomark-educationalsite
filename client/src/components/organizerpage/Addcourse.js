@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import './registeration.css'
+//  import './registeration.css'
 import axios from 'axios'
 import { resolvePath, useNavigate } from 'react-router-dom'
 
@@ -17,7 +17,7 @@ function Registeration() {
     const navigate = useNavigate("");
 
     // form function
-    const handleSubmit = async (e) => {
+    const handleSubmit1 = async (e) => {
         e.preventDefault();
        
         try {
@@ -54,22 +54,22 @@ function Registeration() {
                     <div >
                         <div >
                             <div>
-                                <form onSubmit={handleSubmit}>
-                                    <div className="inputfield">
+                                <form onSubmit={handleSubmit1}>
+                                    <div className="inputfield1">
                                        
                                         <input type="text" name="subject" placeholder="course/event"
                                             value={subject}
                                             onChange={(e) => setSubject(e.target.value)}
                                             required />
                                     </div>
-                                    <div className="inputfield">
+                                    <div className="inputfield1">
                                        
                                         <input type="text" name="details" placeholder="details of course"
                                             value={details}
                                             onChange={(e) => setDetails(e.target.value)}
                                             required />
                                     </div>
-                                    <div className="inputfield">
+                                    <div className="inputfield1">
                                        
                                         <input type="file" name="photo" placeholder="photo url"
                                             value={photo}

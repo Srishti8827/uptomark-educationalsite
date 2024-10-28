@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './registeration.css'
+// import './registeration.css'
 import { BsTelephone } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import { RiLockPasswordLine } from 'react-icons/ri'

@@ -2,15 +2,19 @@
  display: block;
  padding: 1em;
 }
-.inputfield{
+.inputfield1{
     padding: 0.5em;
     border-color: grey;
     display: inline;
 
 }
+
 .titlecontainer{
     display: flex;
     justify-content: left;
     padding-top: 2rem;
     padding-left:2rem ;
+}
+input {
+    pointer-events: auto; /* Make sure this isn't set to none */
 }
