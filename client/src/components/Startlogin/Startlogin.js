@@ -1,7 +1,9 @@
 import React from "react";
 import './startlogin.css'
 import { Link, NavLink } from 'react-router-dom'
+import { useState } from "react";
 const Startlogin=()=>{
+    const [studnet,setStudent]=useState("");
 return (
     <>
         
@@ -19,10 +21,10 @@ return (
             <div className="cardlogin" id="students">
                 <h1>For Students</h1>
                 <p>Join over 20 million courses available from different organization</p>
-                <NavLink to="/login" className="loginbutton "id="student-login" aria-current="page"  >login</NavLink>
+                <NavLink to="/login" className="loginbutton" id="student-login" aria-current="page"  >login</NavLink>
                 <p>Don't have account?</p>
                 {/* <button>sign up</button> */}
-                <NavLink to="/register" className="signupbutton "id="organizer-signup" aria-current="page"  >sign-up</NavLink>
+                <NavLink to="/register" className="signupbutton"id="organizer-signup" aria-current="page"  >sign-up</NavLink>
             </div>
         </div>
     </>

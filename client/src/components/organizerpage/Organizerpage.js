@@ -8,9 +8,9 @@ import About from '../About/About'
 function Organizerpage(){
     return(
         <>
-        {/* <Front/>  */}
+        <Front/> 
         <Addcourse/>
-        <p>Cources avaliable now are</p>
+        <h2> Avaliable Cources</h2>
         <Landingpage/> 
         <div className="deco"> 
         <About/>

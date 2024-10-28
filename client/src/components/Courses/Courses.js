@@ -18,12 +18,13 @@ const Landingpage = () => {
   useEffect(() => {
     const fetchData = async () => {
       const url = process.env.REACT_APP_API // Ensure this environment variable is set correctly
-      // console.log(`${process.env.REACT_APP_API}/api/v1/auth/events`);
+      console.log(`${process.env.REACT_APP_API}/api/v1/auth/events`);
       try {
         const response = await axios.get(`${url}/api/v1/auth/events`);
-        // console.log(response)
+        console.log(response)
         setMembers(response.data.data);
-        // console.log(typeof(members[0].photo)); // should log true console.log(members);
+        console.log(members[0].photo)
+        console.log(typeof(members[0].photo)); // should log true console.log(members);
       } catch (error) {
         console.error('Error fetching events:', error);
       }
@@ -36,7 +37,8 @@ const Landingpage = () => {
   const eventsList = members.map((member) => (
     <div className="landcard" key={member.id}>
       <div className="landcardimgs">
-      <img src="https://drive.google.com/uc?id=1CnaTpVbnD7k0svzVqgSecfx4kjLH9iaP" />
+      <img src={(member.photo)} alt="not loading" />
+      {/* <img id="image1"src={require('./groupphotot.jpeg')} alt="photo" /> */}
 
       </div>
       <div className="landcardtitle">

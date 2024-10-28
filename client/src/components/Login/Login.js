@@ -5,10 +5,10 @@ import './login.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {RiLockPasswordLine} from 'react-icons/ri'
 import axios from 'axios'
-import {  useNavigate } from 'react-router-dom';
+import {  NavLink, useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import Registeration from '../Registeration/Registeration.js'
 
 
 function Login() {
@@ -92,8 +92,10 @@ function Login() {
                             </div>
                         </div>
                     </div>
+                <span>Not register   </span>
+                <NavLink to="/register"  aria-current="page" >Sign up</NavLink>
                 </div>
-               
+                
             </div>
             <ToastContainer />
         </>

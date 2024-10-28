@@ -33,7 +33,7 @@ function Footer() {
                Follow us on 
             </h1>
             <div  className='subheadingfooter'><img src={require('./instagram.png')} className="iconimage" alt=""/>Instagram</div>
-            <div  className='subheadingfooter'><img src={require('./linkedin.png')} className="iconimage" alt=""/>Linkdin</div>
+            <div  className='subheadingfooter'><img src={require('./linkedin.png')} className="iconimage" alt=""/>Linkedin</div>
             <div  className='subheadingfooter'><img src={require('./facebook.png')} className="iconimage" alt=""/>FaceBook</div>
             {/* <div  className='subheadingfooter'><img src={require('./twitter.png')} className="iconimage" alt=""/>Twitter</div> */}
         </div>

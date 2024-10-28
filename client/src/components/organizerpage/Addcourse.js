@@ -71,7 +71,7 @@ function Registeration() {
                                     </div>
                                     <div className="inputfield">
                                        
-                                        <input type="text" name="photo" placeholder="photo url"
+                                        <input type="file" name="photo" placeholder="photo url"
                                             value={photo}
                                             onChange={(e) => setPhoto(e.target.value)}
                                             required />

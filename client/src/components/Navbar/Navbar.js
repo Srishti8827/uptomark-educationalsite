@@ -43,12 +43,13 @@ function Navbar() {
                     {!auth.user?(
                         <>
                         
-                    <li className="navbaritem">
+                    {/* <li className="navbaritem">
                         <NavLink to="/register" className="navlink " aria-current="page" >Register</NavLink>
                     </li>
+                    */}
                     <li className="navbaritem">
                         <NavLink to="/login" className="navlink " aria-current="page" >Login</NavLink>
-                    </li>
+                    </li> 
                         </>
                     ):(
                         <>
