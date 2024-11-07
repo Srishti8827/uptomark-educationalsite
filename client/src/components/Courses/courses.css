@@ -44,11 +44,11 @@
         margin: 0;
         padding: 0;
         aspect-ratio:16 / 9;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
     .landcardimgs img{
-        /* height: 17rem;
-        width:17rem; */
+         /* height: 17rem; */
+        /* width:17rem; */
         max-width: 100%;
         transform-origin: center;
         transform: scale(var(--img-scale));

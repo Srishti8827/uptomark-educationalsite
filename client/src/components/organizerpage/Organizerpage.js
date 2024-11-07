@@ -10,7 +10,7 @@ function Organizerpage(){
         <>
         <Front/> 
         <Addcourse/>
-        <h2> Avaliable Cources</h2>
+        {/* <h2> Avaliable Cources</h2> */}
         <Landingpage/> 
         <div className="deco"> 
         <About/>

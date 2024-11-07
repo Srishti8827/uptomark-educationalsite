@@ -74,7 +74,7 @@ function Registeration() {
                                         <input type="file" name="photo" placeholder="photo url"
                                             value={photo}
                                             onChange={(e) => setPhoto(e.target.value)}
-                                            required />
+                                            required accept='image/*'/>
                                     </div>
                                     <input className="button" type="submit" value="Add" />
                                 </form>

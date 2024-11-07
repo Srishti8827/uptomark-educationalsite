@@ -37,7 +37,7 @@ const Landingpage = () => {
   const eventsList = members.map((member) => (
     <div className="landcard" key={member.id}>
       <div className="landcardimgs">
-      <img src={(member.photo)} alt="not loading" />
+      <img src={require(`./photos/${member.subject}.jpg`)} alt="not loading" />
       {/* <img id="image1"src={require('./groupphotot.jpeg')} alt="photo" /> */}
 
       </div>
