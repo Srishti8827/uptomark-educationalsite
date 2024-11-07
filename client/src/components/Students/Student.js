@@ -19,7 +19,7 @@ const Student = () => {
                 <img data-aos='zoom-in' data-aos-delay="300" className='studentimg' src={require('./dummymen.jpeg')} alt="" />
                 <div className="cardbody">
                     <h2 className="studentname">Ratan</h2>
-                    <p className="studentdis">CodeingUp Winner<p>Lorem ipsum dol</p></p>
+                    <p className="studentdis">CodeingUp Winner<p>Joined the CPP cource</p></p>
                 </div>
               
             </div>
@@ -28,7 +28,7 @@ const Student = () => {
                 <img className='studentimg' data-aos='zoom-in' data-aos-delay="300" src={require('./dummymen.jpeg')} alt="" />
                 <div className="cardbody">
                     <h2 className="studentname">Suraj Singh</h2>
-                    <p className="studentdis">JEE Mains Rank 182<p>Lorem ipsum dol </p></p>
+                    <p className="studentdis">JEE Mains Rank 182<p>Boosted Maths concept </p></p>
                 </div>
             </div>
             <div className="card-student">
@@ -36,21 +36,21 @@ const Student = () => {
                 <div className="cardbody">
                     <h2 className="studentname">Riya Rai</h2>
                     <p className="studentdis">NEET Topper
-                    <p>Lorem ipsum dol </p></p>
+                    <p>Joined Biology cource </p></p>
                 </div>
             </div>
             <div className="card-student">
                 <img className='studentimg'data-aos='zoom-in' data-aos-delay="300" src={require('./dummymen.jpeg')} alt="" />
                 <div className="cardbody">
                     <h2 className="studentname">Adesh</h2>
-                    <p className="studentdis">Lorem Winner<p>Lorem ipsum dol </p></p>
+                    <p className="studentdis">Writer <p>Joined english cource. </p></p>
                 </div>
             </div>
             <div className="card-student">
                 <img className='studentimg' data-aos='zoom-in' data-aos-delay="300" src={require('./dummywomen.jpeg')} alt="" />
                 <div className="cardbody">
                     <h2 className="studentname">Hina Raj</h2>
-                    <p className="studentdis">JEE Mains Rank 342<p>Lorem ipsum dol </p></p>
+                    <p className="studentdis">JEE Mains Rank 342<p>Joined maths cource. </p></p>
                 </div>
             </div>
       </div>
