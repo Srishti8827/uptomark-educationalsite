@@ -42,11 +42,10 @@ function App() {
         <Loader />
       ) : (
     <BrowserRouter>
+
     <Navbar/>
+
    <Routes>
-
-   
-
    <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>}/>
@@ -65,7 +64,9 @@ function App() {
      {/* <Route path='/land' element={<Landingpage/>}/> */}
      <Route path='/courses' element={<Courses/>}/>
    </Routes>
+
    <Footer/>
+   
     </BrowserRouter>
       )}
     </>

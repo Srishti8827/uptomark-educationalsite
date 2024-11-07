@@ -10,7 +10,7 @@ function Navbar() {
     //     duration: 800,
     //     offset:150,
     // });
-    const [auth, setAuth] = useAuth();
+     const [auth,setAuth] = useAuth();
     const handleLogout = () => {
         setAuth({
           ...auth,
@@ -18,7 +18,7 @@ function Navbar() {
           token: ''
         })
         localStorage.removeItem('auth')
-        toast.success('Logot successfull')
+        toast.success('Logout successfull')
       }
     return (
         <>

@@ -21,9 +21,9 @@ const Landingpage = () => {
       console.log(`${process.env.REACT_APP_API}/api/v1/auth/events`);
       try {
         const response = await axios.get(`${url}/api/v1/auth/events`);
-        console.log(response);
+        // console.log(response);
         setMembers(response.data.data);
-        console.log(response.data.data[0].photo);
+        // console.log(response.data.data[0].photo);
         // console.log(typeof(members[0].photo)); // should log true console.log(members);
       } catch (error) {
         console.error('Error fetching events:', error);

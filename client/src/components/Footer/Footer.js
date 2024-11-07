@@ -3,6 +3,7 @@ import './footer.css'
 import "aos/dist/aos.css";
 import {AiOutlineCopyrightCircle} from 'react-icons/ai'
 import AOS from 'aos';
+
 function Footer() {
     AOS.init({
         duration: 800,

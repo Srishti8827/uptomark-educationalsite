@@ -54,7 +54,7 @@ function Registeration() {
                     <div >
                         <div >
                             <div>
-                                <form onSubmit={handleSubmit1}>
+                                <form onSubmit={handleSubmit1} nctype="multipart/form-data">
                                     <div className="inputfield1">
                                        
                                         <input type="text" name="subject" placeholder="course/event"

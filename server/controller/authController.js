@@ -197,6 +197,8 @@ export const eventdetails = async (req, res) => {
 
 
 
+// const multer  = require('multer')
+// import multer  from 'multer'
   //addevent
   export const addeventController=async(req,res)=>{
     try{
@@ -214,6 +216,20 @@ export const eventdetails = async (req, res) => {
             return res.send({message:"photo is Required"});
         }
         
+
+        // const storage = multer.diskStorage({
+        //     destination: function (req, photo, cb) {
+        //       cb(null, 'my-uploads/')
+        //     },
+        //     filename: function (req, photo, cb) {
+        //       const uniqueSuffix =(subject)
+        //       cb(null, uniqueSuffix)
+        //     }
+        //   })
+        //   console.log(storage);
+        //   const upload = multer({ storage: storage })
+
+
         //check user
         const exisitingevent=await eventModel.findOne({subject});
         //exisiting user

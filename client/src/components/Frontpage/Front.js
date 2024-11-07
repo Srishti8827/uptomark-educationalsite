@@ -28,7 +28,7 @@ const handleClick=()=> {
     <div className='frontbody'>
       <h1 className='frontheading'data-aos="slide-right" >Best Online Education <p>Expertise </p></h1>
       <p className="subhead" data-aos="slide-right" data-aos-delay="300">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-    <button className='front_button' onClick={handleClick} >VIEW COURCES</button>
+      <button className='front_button' onClick={handleClick} >VIEW COURCES</button>
     </div>
     </div>
     <ToastContainer/>
